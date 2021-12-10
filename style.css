@@ -1,0 +1,243 @@
+
+
+header{
+    height: 40px;
+}
+
+h1{
+    padding-top: 20%;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.h1{
+    padding-top: 0;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+body{
+    background-color: black;
+    background-image: url(https://github.com/SNastya/-/blob/main/img/bcfe3678767235a08366a55d6ef7ac64.jpg?raw=true) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.main{
+    
+    height: 100vh;
+}
+.project{
+    height: 100vh;
+    align-items: center;
+}
+.dreamteam{
+    height: 100vh;
+    align-items: center;
+
+}
+.contacts{
+    height: 100vh;
+    align-items: center;
+}
+.test{
+    height: 100vh;
+    width: auto;
+    align-items: center; 
+    position: relative;  
+}
+
+
+
+
+h2{
+    color:white;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+
+
+
+}
+.h2{
+    color: black;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.ordTxt{
+    margin: 40px;
+    color:white;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.img1{
+    position: relative;
+    left: 32%;
+    height: 300px;
+    width: 100px;
+
+}
+img{    
+    transform: scale(0.6);
+}
+
+
+.tgb{
+    position: relative;
+    left: 36%;
+    right: 0;
+    height: 100px;
+    width: 400px;
+    /* background: radial-gradient( rgba(1,1,1,1) 20%, rgba( 50,50,50,0.5) 40%, rgba(128, 128, 128, 0.2) 60%, rgba(1,1,1,0) 100% ); */
+    /* border-color: rgb(79, 79, 245); */
+    border: none;
+    background-color: rgba(1,1,1,0);
+    border-radius: radial-gradient(20px 20%);
+    align-items: center;
+    transition: all 1.3s;
+    
+}
+
+.tgbtn{
+    padding-top: 35% ;
+    font-size: 50px;
+    font-style:initial;
+    text-align: center;
+    font-family: 'PT Sans Caption', sans-serif;
+    color: black;
+    transition: all 1s;
+
+}
+
+.tgb :hover{
+    transform: scale(1.2);
+    transition: all 1s;
+    filter: invert(100%);
+}
+
+
+
+
+/*стрелка вниз*/
+#section05 a {
+    padding-top: 70px;
+  }
+#section05 a span {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 2s infinite;
+    animation: sdb05 2s infinite;
+    box-sizing: border-box;
+  }
+  @-webkit-keyframes sdb05 {
+    0% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+      opacity: 0;
+    }
+  }
+  @keyframes sdb05 {
+    0% {
+      transform: rotate(-45deg) translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(-45deg) translate(-20px, 20px);
+      opacity: 0;
+    }
+  }
+
+/*menu*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+.menu-main {
+  list-style: none;
+  padding: 0 30px;
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  float: right;
+
+}
+.menu-main:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  left: 0;
+  bottom: -20px;
+
+  
+}
+.menu-main li {display: inline-block;}
+.menu-main a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 10px 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: white;
+  transition: .3s linear;
+  position: relative;
+}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 3px);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+
+  background:  black;
+  opacity: 0;
+  transition: .5s ease-in-out;
+}
+.menu-main a:before {left: 5px;}
+.menu-main a:after {right: 5px;}
+
+.menu-main a:hover:before, 
+.menu-main a:hover:after {opacity: 1;}
+
+.menu-main a:hover {
+    color:black  ;
+    text-decoration: underline;
+}
+@media(max-width:680px) {
+  .menu-main li {display: block;}
+}
+
+
+
+
+
